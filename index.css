@@ -1,0 +1,24 @@
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-row div {
+  flex: 1 1 auto;
+}
+
+.flex-row .section-header {
+  flex-grow: 0;
+  flex-shrink: 0;
+  flex-basis: auto;
+  min-width: 20%;
+}
+
+.align-right {
+  text-align: right;
+}
+
+.align-center {
+  text-align: center;
+}
