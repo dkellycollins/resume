@@ -1,15 +1,29 @@
-
 body {
   display: flex;
   flex-direction: column;
+
   max-width: 8.5in;
   margin: auto;
+  padding-top: 16px;
+
+  font-family: "Crimson Text", serif;
 }
 
 hr {
-  margin-left: 0;
-  margin-right: 0;
+  margin-left: 0px;
+  margin-right: 0px;
 }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0px;
+}
+
+/* Layout */
 
 .flex-row {
   display: flex;
@@ -24,12 +38,10 @@ hr {
   flex-grow: 0;
   flex-shrink: 0;
   flex-basis: auto;
-  min-width: 20%;
+  width: 20%;
 }
 
-.section-header {
-  max-width: 20%;
-}
+/* Utilities */
 
 .align-right {
   text-align: right;
@@ -38,6 +50,16 @@ hr {
 .align-center {
   text-align: center;
 }
+
+.margin-bottom-none {
+  margin-bottom: 0px;
+}
+
+.margin-bottom-small {
+  margin-bottom: 8px;
+}
+
+/* Components */
 
 .avatar {
   background: black;
