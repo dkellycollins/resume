@@ -1,1 +1,1 @@
-npx http-serve
+npx http-server
